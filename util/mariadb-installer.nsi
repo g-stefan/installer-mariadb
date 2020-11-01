@@ -13,7 +13,7 @@
 Name "MariaDB"
 
 ; Version
-!define MariaDBVersion "10.5.5"
+!define MariaDBVersion "$%PRODUCT_VERSION%"
 
 ; The file to write
 OutFile "installer\mariadb-${MariaDBVersion}-installer.exe"

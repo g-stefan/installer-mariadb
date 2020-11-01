@@ -5,13 +5,15 @@ rem Created by Grigore Stefan <g_stefan@yahoo.com>
 
 echo -^> make mariadb
 
+call build.config.cmd
+
 if exist build\ rmdir /Q /S build
 if exist release\ rmdir /Q /S release
 
 mkdir build
 
-7z x "vendor/mariadb-10.5.5-winx64.zip" -aoa -obuild
-move "build\mariadb-10.5.5-winx64" "release"
+7z x "vendor/mariadb-%PRODUCT_VERSION%-winx64.zip" -aoa -obuild
+move "build\mariadb-%PRODUCT_VERSION%-winx64" "release"
 rmdir /Q /S build
 
 rmdir /Q /S release\include
