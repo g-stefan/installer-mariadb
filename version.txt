@@ -1,1 +1,1 @@
-mariadb-10.5.8-winx64.zip,https://downloads.mariadb.org/mariadb/
+mariadb-10.5.9-winx64.zip,https://downloads.mariadb.org/mariadb/
