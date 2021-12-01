@@ -9,6 +9,6 @@ echo -^> vendor %PRODUCT_NAME%
 
 if not exist vendor\ mkdir vendor
 
-set VENDOR=mariadb-%PRODUCT_VERSION%-winx64.zip
-set WEB_LINK=https://downloads.mariadb.org/interstitial/mariadb-%PRODUCT_VERSION%/winx64-packages/mariadb-%PRODUCT_VERSION%-winx64.zip/from/https%3A//mirrors.chroot.ro/mariadb/
+set VENDOR=mariadb-%PRODUCT_VERSION%-winx64.zip             
+set WEB_LINK=https://mirrors.chroot.ro/mariadb/mariadb-%PRODUCT_VERSION%/winx64-packages/mariadb-%PRODUCT_VERSION%-winx64.zip
 if not exist vendor\%VENDOR% curl --insecure --location %WEB_LINK% --output vendor\%VENDOR%
