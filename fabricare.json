@@ -1,0 +1,18 @@
+{
+	"solution": {
+		"name" : "installer-mariadb",
+		"type" : "xyo-cpp",
+		"projects": [
+			{
+				"name" : "installer-mariadb",
+				"SPDX-License-Identifier": "MIT",
+				"version" : "10.6.11",
+				"noVersion" : true
+			}
+		],
+		"hasGithub" : true,
+		"sourceLinks" : {
+			"mariadb-10.6.11-winx64.zip" : "https://downloads.mariadb.org/mariadb/"
+		}
+	}
+}

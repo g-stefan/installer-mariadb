@@ -16,7 +16,7 @@ Name "MariaDB"
 !define MariaDBVersion "$%PRODUCT_VERSION%"
 
 ; The file to write
-OutFile "installer\mariadb-${MariaDBVersion}-installer.exe"
+OutFile "release\mariadb-${MariaDBVersion}-installer.exe"
 
 Unicode True
 RequestExecutionLevel admin
