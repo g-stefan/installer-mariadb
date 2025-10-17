@@ -6,12 +6,12 @@
 			{
 				"name" : "installer-mariadb",
 				"SPDX-License-Identifier": "MIT",
-				"version" : "11.5.2",
+				"version" : "12.0.2",
 				"noVersion" : true
 			}
 		],
 		"sourceLinks" : {
-			"mariadb-11.5.2-winx64.zip" : "https://downloads.mariadb.org/mariadb/"
+			"mariadb-12.0.2-winx64.zip" : "https://downloads.mariadb.org/mariadb/"
 		}
 	}
 }
